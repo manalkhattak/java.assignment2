@@ -7,12 +7,12 @@
 </head>
 <body>
     <h1><u>MARLA TO SQUARE FEET CONVERTER</u></h1>
-    <form convertMarlaToSquareFeet> 
+    <form onsubmit="convertValues(event)"> 
     <label for="marla"> <u><h2>VALUE IN MARLA:</h2></u></label>
     <input class="placeholder" type="number" id="marla" placeholder="Enter Marla" required step="0.0001">
     <br>
     <br>
-    <input type="button" value="Convert" onclick="convertMarlaToSquareFeet()" >
+    <input  type="button" value="Convert" type="submit" >
     </form>
      <h3 id="result"></h3>
 
